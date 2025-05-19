@@ -1,0 +1,9 @@
+CREATE TABLE bears (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(255) ,
+    age INT NOT NULL,
+    sex VARCHAR(1) NOT NULL,
+    color VARCHAR(75) NOT NULL,
+    temperament VARCHAR(75) NOT NULL,
+    alive BOOLEAN NOT NULL
+);
